@@ -1,0 +1,12 @@
+{
+  "name": "merazul-khan-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Portfolio Website for Merazul Khan",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l 3000 ."
+  },
+  "keywords": ["portfolio", "developer", "resume", "showcase"],
+  "author": "Merazul Khan <merajulhaikhan@gmail.com>",
+  "license": "MIT"
+}
