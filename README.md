@@ -1,5 +1,9 @@
 # 🚀 Merazul Khan - Professional Portfolio Website
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-merazul--khan--portfolio.vercel.app-blue?style=for-the-badge&logo=vercel)](https://merazul-khan-portfolio.vercel.app/)
+
+> 🌐 **Live Website:** [https://merazul-khan-portfolio.vercel.app/](https://merazul-khan-portfolio.vercel.app/)
+
 A modern, responsive, high-performance portfolio website built with HTML5, Tailwind CSS, Lucide Icons, and Vanilla JavaScript.
 
 Designed with an aesthetic glassmorphic theme, dark/light mode toggle, dynamic typewriter header, animated project showcases with category filters, interactive project quick-view modals, timeline experience tracker, and a working contact form.

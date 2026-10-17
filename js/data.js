@@ -23,14 +23,15 @@ I thrive at the intersection of aesthetic frontend design and resilient backend 
 When I'm not coding, you can find me exploring emerging tech stacks, contributing to developer communities, or sharing insights on tech blogs.`,
     email: "merajulhaikhan@gmail.com",
     location: "Kolkata, India / Remote Worldwide",
+    portfolioUrl: "https://merazul-khan-portfolio.vercel.app/",
     resumeUrl: "#contact", // or path to assets/resume.pdf
     avatar: "assets/images/avatar.svg",
     socials: [
       {
         name: "GitHub",
-        url: "https://github.com",
+        url: "https://github.com/Merazul1",
         icon: "github",
-        handle: "@merazul-khan"
+        handle: "@Merazul1"
       },
       {
         name: "LinkedIn",

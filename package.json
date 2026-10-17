@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Professional Portfolio Website for Merazul Khan",
   "main": "index.html",
+  "homepage": "https://merazul-khan-portfolio.vercel.app/",
   "scripts": {
     "start": "npx serve -l 3000 ."
   },
