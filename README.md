@@ -1,6 +1,7 @@
 # 🚀 Merazul Khan - Professional Portfolio Website
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-merazul--khan--portfolio.vercel.app-blue?style=for-the-badge&logo=vercel)](https://merazul-khan-portfolio.vercel.app/)
+[![Profile Views](https://komarev.com/ghpvc/?username=Merazul1&color=007ec6&style=flat-square&label=Profile%20Views)](https://github.com/Merazul1)
 
 > 🌐 **Live Website:** [https://merazul-khan-portfolio.vercel.app/](https://merazul-khan-portfolio.vercel.app/)
 
