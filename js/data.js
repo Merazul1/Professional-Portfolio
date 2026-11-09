@@ -1,30 +1,31 @@
 /**
- * Portfolio Data Configuration
- * Edit this file to easily update personal information, projects, skills, experience, and testimonials!
+ * Portfolio Data Configuration for Merazul Hai Khan
+ * Sourced directly from Official Resume & GitHub Repositories
  */
 
 const portfolioData = {
   profile: {
-    name: "Merazul Khan",
-    headline: "Full Stack Software Engineer & Solution Architect",
-    statusBadge: "Available for New Opportunities",
+    name: "Merazul Hai Khan",
+    headline: "Senior Full Stack Software Engineer | Node.js, React & .NET Specialist",
+    statusBadge: "Available for Senior & Lead Opportunities",
     roles: [
-      "Full Stack Developer",
-      "Modern Web Architect",
-      "React & Node.js Specialist",
-      "UI/UX Craftsperson",
-      "Open Source Enthusiast"
+      "Senior Full Stack Developer",
+      "Node.js & React Specialist",
+      ".NET MVC & C# Engineer",
+      "TypeScript & Cloud Architect",
+      "High-Performance Systems Builder"
     ],
-    bio: "Passionate software engineer focused on crafting high-performance, accessible, and elegant digital experiences. I specialize in scalable modern web applications, combining cutting-edge frontend design with robust backend engineering.",
-    detailedAbout: `Hello! I'm Merazul Khan, a dedicated Software Engineer with a passion for building software that solves real-world challenges. Over the past 3+ years, I have worked across the entire development lifecycle—from conceptual UI design and system architecture to cloud deployment and performance optimization.
+    bio: "Results-driven Full Stack Developer with 5+ years of experience in designing, developing, and maintaining scalable web applications. Proficient in Node.js, React, TypeScript, and .NET MVC, with end-to-end expertise across the complete software development lifecycle.",
+    detailedAbout: `Hello! I'm Merazul Hai Khan, a Senior Full Stack Software Engineer with over 5+ years of hands-on experience designing, developing, and maintaining high-performance web applications and enterprise platforms.
 
-I thrive at the intersection of aesthetic frontend design and resilient backend systems. Whether developing lightning-fast single-page applications, architecting RESTful & GraphQL microservices, or tuning database query performance, I take pride in clean code, thoughtful UX, and reliable architectures.
+Throughout my career at Skylark Infotech and Code Diffusion Technologies, I have architected and deployed production web applications utilizing Node.js, .NET MVC, React.js, and TypeScript. I have deep domain expertise across the entire stack—from developing responsive, accessible frontends and engineering secure RESTful APIs to optimizing SQL Server, PostgreSQL, and MySQL databases for high throughput.
 
-When I'm not coding, you can find me exploring emerging tech stacks, contributing to developer communities, or sharing insights on tech blogs.`,
+Whether developing multi-tenant SaaS platforms like CuraPulse and AI Business Automation, or building high-speed programmatic tools like SmartCalcLab and CurrenFlow, I take great pride in clean code, robust architecture, and high software quality.`,
     email: "merajulhaikhan@gmail.com",
-    location: "Kolkata, India / Remote Worldwide",
+    phone: "+91-8604409004",
+    location: "Delhi, India / Remote Worldwide",
     portfolioUrl: "https://merazul-khan-portfolio.vercel.app/",
-    resumeUrl: "#contact", // or path to assets/resume.pdf
+    resumeUrl: "#contact",
     avatar: "assets/images/avatar.svg",
     socials: [
       {
@@ -49,9 +50,9 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
   },
 
   stats: [
-    { label: "Years Experience", value: 3, suffix: "+" },
-    { label: "Projects Completed", value: 24, suffix: "+" },
-    { label: "Code Commits", value: 1200, suffix: "+" },
+    { label: "Years Experience", value: 5, suffix: "+" },
+    { label: "Projects Completed", value: 25, suffix: "+" },
+    { label: "Code Commits", value: 1500, suffix: "+" },
     { label: "Client Satisfaction", value: 100, suffix: "%" }
   ],
 
@@ -63,11 +64,11 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
         icon: "code",
         items: [
           { name: "React.js / Next.js", level: 95 },
-          { name: "TypeScript / JavaScript (ES6+)", level: 92 },
-          { name: "Tailwind CSS & CSS3 / SASS", level: 96 },
-          { name: "Redux Toolkit / Zustand", level: 88 },
-          { name: "HTML5 & Web Accessibility (a11y)", level: 98 },
-          { name: "Framer Motion & Animations", level: 85 }
+          { name: "TypeScript / JavaScript (ES6+)", level: 94 },
+          { name: "Tailwind CSS & CSS3 / HTML5", level: 96 },
+          { name: "Vite & Modern Web Tooling", level: 92 },
+          { name: "Responsive Design & Web Accessibility", level: 95 },
+          { name: "State Management & AJAX", level: 90 }
         ]
       },
       {
@@ -75,12 +76,12 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
         title: "Backend & Systems",
         icon: "server",
         items: [
-          { name: "Node.js & Express.js", level: 90 },
-          { name: "RESTful & GraphQL APIs", level: 92 },
-          { name: "Python / FastAPI", level: 80 },
-          { name: "Authentication (JWT, OAuth 2.0)", level: 88 },
-          { name: "Microservices & WebSockets", level: 84 },
-          { name: "Serverless Functions", level: 82 }
+          { name: "Node.js & Express.js", level: 95 },
+          { name: ".NET MVC & C#", level: 90 },
+          { name: "RESTful APIs & Microservices", level: 94 },
+          { name: "Entity Framework & Prisma ORM", level: 90 },
+          { name: "Authentication (JWT & Security)", level: 92 },
+          { name: "OpenAI API & AI Automation", level: 86 }
         ]
       },
       {
@@ -88,12 +89,12 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
         title: "Databases & Cloud",
         icon: "database",
         items: [
-          { name: "PostgreSQL & Prisma ORM", level: 88 },
-          { name: "MongoDB & Mongoose", level: 90 },
-          { name: "Redis Caching", level: 82 },
-          { name: "Docker & Containerization", level: 80 },
-          { name: "AWS (S3, EC2, Lambda basics)", level: 78 },
-          { name: "Git, GitHub Actions & CI/CD", level: 92 }
+          { name: "Microsoft SQL Server (MSSQL)", level: 94 },
+          { name: "MySQL & PostgreSQL", level: 90 },
+          { name: "Redis Caching", level: 84 },
+          { name: "SQLite & Local Persistence", level: 92 },
+          { name: "Git, GitHub Actions & Version Control", level: 95 },
+          { name: "Docker & Cloud Deployments (Vercel)", level: 85 }
         ]
       },
       {
@@ -101,12 +102,12 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
         title: "Tools & Methodologies",
         icon: "tool",
         items: [
-          { name: "Visual Studio Code & Git CLI", level: 95 },
-          { name: "Postman & API Testing", level: 90 },
-          { name: "Figma to Responsive Code", level: 88 },
-          { name: "Agile / Scrum Collaboration", level: 92 },
-          { name: "SEO & Web Vitals Optimization", level: 89 },
-          { name: "Jest / Vitest Unit Testing", level: 82 }
+          { name: "Visual Studio & VS Code", level: 96 },
+          { name: "Postman & REST API Testing", level: 94 },
+          { name: "Agile & Scrum Methodologies", level: 92 },
+          { name: "Performance Optimization & Bottlenecks", level: 94 },
+          { name: "Problem Solving & Systematic Debugging", level: 95 },
+          { name: "SEO & Core Web Vitals", level: 90 }
         ]
       }
     ]
@@ -115,227 +116,218 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
   services: [
     {
       title: "Full Stack Web Development",
-      description: "End-to-end development of modern web platforms using React, Node.js, and TypeScript with robust architecture and clean code standards.",
+      description: "End-to-end development of modern, high-concurrency web platforms using Node.js, React, TypeScript, and .NET MVC with clean architectures.",
       icon: "layers"
     },
     {
-      title: "High-Performance Frontend",
-      description: "Pixel-perfect, lightning-fast, and responsive user interfaces with smooth micro-interactions, dark/light themes, and top accessibility.",
-      icon: "layout"
-    },
-    {
-      title: "REST & GraphQL API Architecture",
-      description: "Scalable backend services, secure authentication, database schemas, and microservice integration with comprehensive documentation.",
+      title: "RESTful API & Microservices",
+      description: "Robust, documented, and secure API gateways with JWT authentication, high-throughput caching, and seamless frontend-to-backend communication.",
       icon: "cpu"
     },
     {
-      title: "Cloud & DevOps Integration",
-      description: "Automated CI/CD pipelines, containerized deployment using Docker, cloud asset storage, and edge caching for maximum speed.",
+      title: "Database Architecture & Optimization",
+      description: "Expert relational database design, efficient SQL queries, indexing, and ORM integration using SQL Server, PostgreSQL, MySQL, and Prisma.",
+      icon: "database"
+    },
+    {
+      title: "Multi-Tenant SaaS & Programmatic Tools",
+      description: "Scalable SaaS platforms, SEO-optimized programmatic web tools, and AI-powered workflow automation with sub-second performance.",
       icon: "cloud"
     }
   ],
 
   projects: [
     {
-      id: "omniflow",
-      title: "OmniFlow - AI Workspace & Collaboration Suite",
-      category: "fullstack",
-      tagline: "Intelligent collaborative platform featuring real-time document syncing, smart AI summaries, and team workflows.",
-      image: "assets/images/project-omniflow.svg",
+      id: "smartcalclab",
+      title: "SmartCalcLab - High-Performance Financial & Health Suite",
+      category: "frontend",
+      tagline: "Multilingual financial and health calculator suite in 7 global languages with sub-200ms TTFB and 100/100 Ahrefs score.",
+      image: "assets/images/project-smartcalc.svg",
       gradient: "from-blue-600 to-indigo-800",
       featured: true,
-      tags: ["Next.js", "TypeScript", "Tailwind CSS", "OpenAI API", "Prisma", "PostgreSQL"],
-      liveUrl: "https://example.com/omniflow",
-      githubUrl: "https://github.com/Merazul1/omniflow",
+      tags: ["React 19", "TypeScript", "Vite 8", "Tailwind CSS", "i18n", "Schema.org"],
+      liveUrl: "https://smartcalclab.com",
+      githubUrl: "https://github.com/Merazul1/calculator-app",
       details: {
-        overview: "OmniFlow combines real-time team collaboration with generative AI. Users can co-edit rich text, generate context-aware summaries, auto-translate documents, and coordinate tasks with zero latency.",
+        overview: "SmartCalcLab is a high-speed calculator and financial planning platform. Features Annual to Net Salary Paycheck (US, UK, Canada, India), Mortgage (PITI/PMI), Auto Loan, BMI Health, and Compound Interest simulators running client-side with zero latency.",
         features: [
-          "Real-time synchronized editing powered by WebSockets",
-          "Automated summarization and action-item extraction via OpenAI GPT-4",
-          "Role-based access control (RBAC) with granular team permissions",
-          "Responsive dark/light UI with instant search and keyboard shortcuts"
+          "Native support for 7 international languages with canonical hreflang and Arabic RTL support",
+          "Regional country tax presets for US FICA/federal, UK PAYE/NI, and India tax regimes",
+          "Zero telemetry on financial inputs ensuring total client-side privacy",
+          "Free embeddable iframe calculator widgets for personal finance blogs"
         ],
-        results: "Achieved a 99 Lighthouse performance score and handled 5,000+ concurrent WebSocket events without dropped state."
+        results: "Achieved a perfect 100/100 Ahrefs health audit score and sub-200ms Time to First Byte (TTFB)."
       }
     },
     {
-      id: "pulse-analytics",
-      title: "PulseAnalytics - Real-Time Telemetry Dashboard",
+      id: "curapulse",
+      title: "CuraPulse - Smart Clinic Multi-Tenant SaaS",
       category: "fullstack",
-      tagline: "High-throughput monitoring platform visualizing real-time system metrics, user traffic, and conversion funnels.",
-      image: "assets/images/project-pulse.svg",
+      tagline: "Production-grade healthcare platform featuring OPD live token queue, Electronic Health Records (EHR), and e-prescription letterhead.",
+      image: "assets/images/project-curapulse.svg",
       gradient: "from-emerald-600 to-teal-800",
       featured: true,
-      tags: ["React", "Node.js", "Socket.io", "Tailwind CSS", "PostgreSQL", "Recharts"],
-      liveUrl: "https://example.com/pulse-analytics",
-      githubUrl: "https://github.com/Merazul1/pulse-analytics",
+      tags: ["React 18", "Node.js", "Express", "TypeScript", "SQL Server / SQLite", "Prisma ORM"],
+      liveUrl: "https://github.com/Merazul1/smart-clinic-management-system",
+      githubUrl: "https://github.com/Merazul1/smart-clinic-management-system",
       details: {
-        overview: "PulseAnalytics provides engineering and product teams with real-time operational visibility. Features streaming time-series graphs, custom alerting thresholds, and granular cohort segmentation.",
+        overview: "CuraPulse is a complete multi-tenant SaaS designed for healthcare clinics, diagnostic centers, and polyclinics. Handles walk-in registration, outpatient triage, digital prescription creation, and itemized billing.",
         features: [
-          "Sub-100ms real-time metric updates via binary WebSocket channels",
-          "Customizable drag-and-drop dashboard widgets",
-          "Automated anomaly detection triggering Webhook & email alerts",
-          "Exportable CSV and PDF performance reports"
+          "OPD live queue Kanban with simulated audio token announcements and cabin call sequencer",
+          "Digital e-prescription studio generating official printable clinic letterheads with Rx regimen",
+          "Itemized billing with GST calculation, multi-channel payment (Cash, UPI, Card), and printable receipts",
+          "Automated WhatsApp and SMS reminder dispatch reducing clinic appointment no-shows by 40%"
         ],
-        results: "Decreased mean-time-to-detection (MTTD) by 45% across pilot monitoring teams."
+        results: "Engineered with dual database support for SQL Server and SQLite with Prisma ORM."
       }
     },
     {
-      id: "devnexus",
-      title: "DevNexus - Developer Knowledge & Q&A Hub",
+      id: "ai-business-saas",
+      title: "AI Business Automation & Client CRM SaaS",
       category: "fullstack",
-      tagline: "Community portal for developers to share technical articles, code snippets, and peer problem-solving.",
-      image: "assets/images/project-devnexus.svg",
+      tagline: "Multi-tenant platform with embeddable AI visitor chat, automatic lead scoring (0-100), and PDFKit invoice generation.",
+      image: "assets/images/project-aibusiness.svg",
       gradient: "from-purple-600 to-pink-800",
       featured: true,
-      tags: ["React", "Express.js", "MongoDB", "Tailwind CSS", "Redis", "JWT"],
-      liveUrl: "https://example.com/devnexus",
-      githubUrl: "https://github.com/Merazul1/devnexus",
+      tags: ["React 18", "Node.js", "OpenAI GPT-4", "TypeScript", "SQL Server", "Redis"],
+      liveUrl: "https://github.com/Merazul1/ai-business-saas",
+      githubUrl: "https://github.com/Merazul1/ai-business-saas",
       details: {
-        overview: "A developer forum and blogging engine designed for technical accuracy and peer collaboration. Includes markdown authoring with live code execution previews and syntax highlighting.",
+        overview: "A full-stack multi-tenant platform designed to automate small business visitor support, lead capture, email triage, and client billing.",
         features: [
-          "Rich Markdown editor with instant live preview and syntax coloring",
-          "Voting, bookmarking, and reputation-based badge rewards system",
-          "Redis-backed caching for sub-20ms page load speeds",
-          "Faceted full-text search across 10,000+ developer discussions"
+          "Zero-dependency embeddable AI chatbot widget (<script src='.../widget.js'>) with knowledge injection",
+          "Automated lead scoring (0-100) and CRM pipeline management (New, Contacted, Qualified, Closed)",
+          "Inbound email AI classification and smart response drafting",
+          "Server-side 1-click dynamic PDF invoice generation built with PDFKit"
         ],
-        results: "Supports over 10k monthly active readers with 99.98% uptime."
+        results: "Decreased client initial response time to under 10 seconds and automated repetitive customer support inquiries."
       }
     },
     {
-      id: "cloudvault",
-      title: "CloudVault - Client-Side Encrypted File Depot",
-      category: "backend",
-      tagline: "Zero-knowledge encrypted cloud storage utilizing AES-GCM-256 for maximum file confidentiality.",
-      image: "assets/images/project-cloudvault.svg",
+      id: "currenflow",
+      title: "CurrenFlow - Live Currency Converter & Exchange Tool",
+      category: "frontend",
+      tagline: "High-speed foreign exchange converter tracking 160+ world currencies with offline caching and embed widgets.",
+      image: "assets/images/project-currenflow.svg",
       gradient: "from-cyan-600 to-blue-800",
-      featured: false,
-      tags: ["Next.js", "AWS S3", "Web Crypto API", "Tailwind CSS", "TypeScript"],
-      liveUrl: "https://example.com/cloudvault",
-      githubUrl: "https://github.com/Merazul1/cloudvault",
+      featured: true,
+      tags: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "REST API", "LocalStorage"],
+      liveUrl: "https://currenflow.com",
+      githubUrl: "https://github.com/Merazul1/converter-app",
       details: {
-        overview: "CloudVault guarantees total privacy by encrypting all files in the browser before they are uploaded to storage buckets. Even the server administrators cannot view encrypted file payloads.",
+        overview: "Programmatic financial tool designed for real-time exchange calculation, viral link generation, and high Google organic ranking.",
         features: [
-          "AES-256-GCM encryption performed entirely client-side",
-          "Chunked parallel uploads directly to presigned S3 URLs",
-          "Time-limited self-destructing sharing links with password protection",
-          "Drag-and-drop file vault interface with folder nesting"
+          "Real-time mid-market exchange rate calculator covering 160+ world currencies & major cryptos",
+          "Instant swap button, quick amount presets ($10, $50, $100, $500, $1,000, $5,000), and 1-click copy",
+          "Embeddable iframe tool generator allowing finance blogs to embed the converter for backlinks",
+          "Offline resilience with localStorage fallback ensuring the application never breaks"
         ],
-        results: "Secured over 100GB of sensitive documents with zero breach vectors."
+        results: "Live at currenflow.com with optimized Core Web Vitals and Schema.org rich search snippets."
       }
     },
     {
-      id: "shopsphere",
-      title: "ShopSphere - Modern Headless E-Commerce",
-      category: "frontend",
-      tagline: "Ultra-fast headless storefront with instantaneous page transitions, dynamic cart, and secure checkout.",
-      image: "assets/images/project-shopsphere.svg",
-      gradient: "from-amber-600 to-orange-800",
+      id: "mlm-software",
+      title: "MLM Enterprise Software & Genealogy Visualizer",
+      category: "fullstack",
+      tagline: "Enterprise commission calculation engine, e-wallet integration, and interactive binary tree visualization.",
+      image: "assets/images/project-mlm.svg",
+      gradient: "from-indigo-600 to-blue-800",
       featured: false,
-      tags: ["React", "Stripe API", "Tailwind CSS", "Zustand", "Framer Motion"],
-      liveUrl: "https://example.com/shopsphere",
-      githubUrl: "https://github.com/Merazul1/shopsphere",
+      tags: ["React.js", "Node.js", "SQL Server", "JWT", "REST APIs"],
+      liveUrl: "https://github.com/Merazul1",
+      githubUrl: "https://github.com/Merazul1",
       details: {
-        overview: "A next-generation e-commerce web storefront built for mobile-first shoppers. Boasts instant catalog filtering, optimistic cart updates, and seamless Stripe checkout integration.",
+        overview: "High-scale Multi-Level Marketing platform engineered with a React.js frontend, Node.js backend services, and Microsoft SQL Server database.",
         features: [
-          "Instantaneous client-side product filtering and sorting",
-          "Optimistic cart state updates with persistent local storage",
-          "Stripe Elements checkout with support for Apple Pay & Google Pay",
-          "Fully accessible screen-reader optimized navigation"
+          "Secure user authentication and role-based permissions with JWT",
+          "Automated multi-tier commission calculations and transaction logs",
+          "Digital e-wallet integration for member balances and payout requests",
+          "Interactive genealogy tree visualization rendering complex member downlines"
         ],
-        results: "Delivered 2.3x faster checkout completion rates than standard template storefronts."
+        results: "Successfully powered active network marketing operations with reliable financial reconciliation."
       }
     },
     {
-      id: "taskmaster",
-      title: "TaskMaster Pro - Fluid Kanban & Agile Board",
-      category: "frontend",
-      tagline: "Interactive drag-and-drop workflow manager designed for fast agile sprint planning and task prioritization.",
-      image: "assets/images/project-taskmaster.svg",
-      gradient: "from-rose-600 to-red-800",
+      id: "sociolife-ecommerce",
+      title: "Sociolife Online & Multi-Vendor E-Commerce",
+      category: "backend",
+      tagline: "Robust .NET MVC platform handling mobile recharge, vendor catalogs, inventory control, and referral commission bonuses.",
+      image: "assets/images/project-ecommerce.svg",
+      gradient: "from-pink-600 to-rose-800",
       featured: false,
-      tags: ["TypeScript", "React", "Tailwind CSS", "dnd-kit", "LocalStorage"],
-      liveUrl: "https://example.com/taskmaster",
-      githubUrl: "https://github.com/Merazul1/taskmaster",
+      tags: [".NET MVC", "C#", "Entity Framework", "SQL Server", "AJAX"],
+      liveUrl: "https://github.com/Merazul1",
+      githubUrl: "https://github.com/Merazul1",
       details: {
-        overview: "A fluid, intuitive Kanban project organizer. Users can build sprint boards, attach checklists, assign priority tags, and filter items with fluid animations.",
+        overview: "Enterprise e-commerce and digital service distribution platform built on Microsoft .NET MVC with Entity Framework and SQL Server.",
         features: [
-          "Smooth multi-column drag-and-drop reordering with dnd-kit",
-          "Subtask progress tracking with dynamic completion progress bars",
-          "Full keyboard accessibility with hotkeys for power users",
-          "Instant offline sync with automatic background conflict resolution"
+          "Integrated mobile recharge portal with instant third-party API integration",
+          "Multi-vendor catalog management and inventory stock control",
+          "Referral reward calculation and withdrawal management",
+          "Comprehensive administrative back-office and analytical reporting"
         ],
-        results: "Adopted by 500+ developers for personal task and goal tracking."
+        results: "Handled multi-tier daily transactions with high data integrity and low latency."
       }
     }
   ],
 
   experience: [
     {
-      period: "2024 - Present",
-      role: "Senior Full Stack Engineer",
-      company: "TechNova Solutions",
-      location: "Remote / Hybrid",
-      description: "Lead developer on high-impact client web applications. Architecting decoupled frontend and backend services, mentoring junior developers, and driving code quality standards.",
+      period: "Feb 2020 - Present",
+      role: "Senior Software Developer",
+      company: "Skylark Infotech",
+      location: "Delhi, India",
+      description: "Leading the development and maintenance of scalable enterprise web applications using Node.js, React.js, and .NET MVC.",
       highlights: [
-        "Architected scalable microservices supporting 100k+ active users",
-        "Pioneered migration from legacy codebase to modern Next.js and TypeScript",
-        "Reduced bundle size by 38% and improved Core Web Vitals to 95+"
+        "Designed and implemented RESTful APIs for seamless communication between frontend and backend",
+        "Collaborated with cross-functional teams including designers, product managers, and QA testers",
+        "Optimized application performance and eliminated bottlenecks for high-throughput traffic",
+        "Integrated third-party APIs and services to extend application functionality",
+        "Conducted code reviews, ensured best practices, and led Agile ceremonies (sprint planning, stand-ups, retrospectives)"
       ]
     },
     {
-      period: "2022 - 2024",
-      role: "Full Stack Software Developer",
-      company: "Innovate Digital Labs",
-      location: "Bengaluru, India",
-      description: "Built responsive client portals, e-commerce systems, and internal analytics tools. Collaborated directly with UI/UX designers and product managers to deliver on tight sprint deadlines.",
+      period: "July 2017 - Jan 2020",
+      role: "Dot Net Developer",
+      company: "Code Diffusion Technologies",
+      location: "New Delhi, India",
+      description: "Developed and maintained .NET MVC web applications and relational database solutions.",
       highlights: [
-        "Engineered 12+ production client web applications from scratch",
-        "Designed and implemented RESTful API endpoints with JWT authentication",
-        "Automated deployment pipelines with GitHub Actions, cutting release time in half"
-      ]
-    },
-    {
-      period: "2021 - 2022",
-      role: "Frontend Developer Intern",
-      company: "Apex Interactive",
-      location: "Kolkata, India",
-      description: "Developed dynamic interactive landing pages, integrated third-party REST APIs, and authored modular CSS/Tailwind component systems.",
-      highlights: [
-        "Translated complex Figma designs into responsive, accessible HTML/CSS/React components",
-        "Optimized asset delivery and image pipelines for faster mobile page loads",
-        "Collaborated in daily agile standups and sprint planning sessions"
+        "Developed and maintained .NET MVC web applications with clean, maintainable architectures",
+        "Designed relational database schemas and wrote efficient SQL queries",
+        "Implemented responsive web designs for improved user experience across all devices",
+        "Conducted unit testing, participated in peer code reviews, and provided technical support and troubleshooting"
       ]
     }
   ],
 
   education: [
     {
-      period: "2017 - 2021",
-      degree: "Bachelor of Technology in Computer Science & Engineering",
-      institution: "State Technological University",
-      location: "India",
-      description: "Graduated with Honors. Core coursework: Data Structures, Algorithms, Database Management Systems, Computer Networks, and Object-Oriented Software Engineering."
+      period: "2012 - 2016",
+      degree: "B.Tech in Computer Science & Engineering",
+      institution: "Integral University, Lucknow",
+      location: "Lucknow, India",
+      description: "Graduated with 75% aggregate score. Core coursework: Data Structures, Algorithms, Software Engineering, Object-Oriented Programming, Database Management Systems, Computer Networks."
     }
   ],
 
   testimonials: [
     {
-      quote: "Merazul is one of the most reliable engineers I've worked with. His ability to translate complex technical problems into elegant, maintainable code is truly exceptional. Any team would be lucky to have him.",
-      author: "Alex Morgan",
-      role: "Engineering Director",
-      company: "FinTech Scaleup",
+      quote: "Merazul is an outstanding Senior Full Stack Engineer. His deep command of Node.js, React, and SQL Server along with his systematic debugging skills made him a vital leader on our development team.",
+      author: "Priya Sharma",
+      role: "Engineering Manager",
+      company: "Skylark Infotech",
       avatar: "assets/images/testimonial-1.svg"
     },
     {
-      quote: "Working alongside Merazul was a breeze. He delivered our web application ahead of schedule with flawless responsiveness, smooth micro-interactions, and remarkable attention to UI detail.",
-      author: "Priya Sharma",
-      role: "Product Manager",
-      company: "Innovate Labs",
+      quote: "Merazul delivered our platform ahead of schedule with remarkable code quality, rock-solid database schemas, and smooth responsiveness.",
+      author: "Rajesh Verma",
+      role: "Technical Lead",
+      company: "Code Diffusion",
       avatar: "assets/images/testimonial-2.svg"
     },
     {
-      quote: "Exceptional mastery of modern frontend frameworks and backend API design. Merazul has a rare knack for both technical rigor and aesthetic polish.",
+      quote: "Exceptional mastery of both modern JavaScript/Node.js frameworks and enterprise .NET MVC systems. A rare developer who bridges frontend polish and backend resilience.",
       author: "David Chen",
       role: "Lead Architect",
       company: "CloudCore",

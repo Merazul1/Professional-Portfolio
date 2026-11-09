@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ecbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#831843"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#ecbg)" rx="12"/>
+  <rect x="40" y="40" width="520" height="300" rx="10" fill="#1b0812" stroke="#db2777" stroke-width="2"/>
+  <circle cx="65" cy="62" r="5" fill="#ef4444"/>
+  <circle cx="82" cy="62" r="5" fill="#f59e0b"/>
+  <circle cx="99" cy="62" r="5" fill="#10b981"/>
+  <rect x="130" y="52" width="220" height="20" rx="4" fill="#500724"/>
+  <text x="140" y="66" fill="#fbcfe8" font-family="sans-serif" font-size="10" font-weight="bold">Sociolife Multi-Vendor E-Commerce</text>
+  <!-- Main Grid -->
+  <g transform="translate(65, 95)">
+    <rect width="470" height="225" rx="8" fill="#2d0a1c" stroke="#831843" stroke-width="1"/>
+    <text x="20" y="24" fill="#f472b6" font-family="sans-serif" font-size="11" font-weight="bold">.NET MVC Vendor &amp; Product Inventory Portal</text>
+    
+    <!-- Product Row -->
+    <g transform="translate(20, 40)">
+      <!-- Card 1 -->
+      <rect width="135" height="150" rx="6" fill="#14040d" stroke="#500724"/>
+      <rect x="10" y="10" width="115" height="60" rx="4" fill="#3b0821"/>
+      <text x="10" y="88" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">Mobile Recharge</text>
+      <text x="10" y="104" fill="#f472b6" font-family="sans-serif" font-size="9">Instant API Gateway</text>
+      <rect x="10" y="118" width="115" height="22" rx="4" fill="#db2777"/>
+      <text x="67" y="133" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">Order Processed</text>
+
+      <!-- Card 2 -->
+      <g transform="translate(145, 0)">
+        <rect width="135" height="150" rx="6" fill="#14040d" stroke="#500724"/>
+        <rect x="10" y="10" width="115" height="60" rx="4" fill="#3b0821"/>
+        <text x="10" y="88" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">Vendor Catalog</text>
+        <text x="10" y="104" fill="#f472b6" font-family="sans-serif" font-size="9">Inventory Stock Sync</text>
+        <rect x="10" y="118" width="115" height="22" rx="4" fill="#be185d"/>
+        <text x="67" y="133" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">Stock Tracked</text>
+      </g>
+
+      <!-- Card 3 -->
+      <g transform="translate(290, 0)">
+        <rect width="140" height="150" rx="6" fill="#14040d" stroke="#500724"/>
+        <rect x="10" y="10" width="120" height="60" rx="4" fill="#3b0821"/>
+        <text x="10" y="88" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">Referral Bonus</text>
+        <text x="10" y="104" fill="#f472b6" font-family="sans-serif" font-size="9">Withdrawal Engine</text>
+        <rect x="10" y="118" width="120" height="22" rx="4" fill="#9d174d"/>
+        <text x="70" y="133" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">Automated Payout</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cpbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#cpbg)" rx="12"/>
+  <rect x="40" y="40" width="520" height="300" rx="10" fill="#041f17" stroke="#059669" stroke-width="2"/>
+  <!-- Status Dots -->
+  <circle cx="65" cy="62" r="5" fill="#ef4444"/>
+  <circle cx="82" cy="62" r="5" fill="#f59e0b"/>
+  <circle cx="99" cy="62" r="5" fill="#10b981"/>
+  <rect x="130" y="52" width="220" height="20" rx="4" fill="#065f46"/>
+  <text x="140" y="66" fill="#ecfdf5" font-family="sans-serif" font-size="10" font-weight="bold">CuraPulse Smart Clinic SaaS</text>
+  <!-- Main Grid -->
+  <!-- Token / Queue Column -->
+  <g transform="translate(65, 95)">
+    <rect width="145" height="225" rx="8" fill="#022c22" stroke="#065f46" stroke-width="1"/>
+    <text x="15" y="24" fill="#a7f3d0" font-family="sans-serif" font-size="11" font-weight="bold">OPD Live Queue</text>
+    <g transform="translate(15, 38)">
+      <rect width="115" height="48" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+      <text x="10" y="20" fill="#6ee7b7" font-family="sans-serif" font-size="9">NOW CALLING</text>
+      <text x="10" y="38" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">Token #12</text>
+    </g>
+    <g transform="translate(15, 96)">
+      <rect width="115" height="42" rx="6" fill="#0f172a"/>
+      <text x="10" y="18" fill="#94a3b8" font-family="sans-serif" font-size="9">IN CABIN 102</text>
+      <text x="10" y="34" fill="#e2e8f0" font-family="sans-serif" font-size="13" font-weight="bold">Token #11</text>
+    </g>
+    <g transform="translate(15, 148)">
+      <rect width="115" height="42" rx="6" fill="#0f172a"/>
+      <text x="10" y="18" fill="#94a3b8" font-family="sans-serif" font-size="9">WAITING LOBBY</text>
+      <text x="10" y="34" fill="#cbd5e1" font-family="sans-serif" font-size="13">Token #14 (4m)</text>
+    </g>
+  </g>
+  <!-- EHR Prescription & Vitals Area -->
+  <g transform="translate(225, 95)">
+    <rect width="310" height="225" rx="8" fill="#022c22" stroke="#065f46" stroke-width="1"/>
+    <text x="20" y="24" fill="#a7f3d0" font-family="sans-serif" font-size="11" font-weight="bold">Patient EHR &amp; Rx Letterhead</text>
+    <!-- Vitals Bar -->
+    <g transform="translate(20, 38)">
+      <rect width="270" height="40" rx="6" fill="#064e3b"/>
+      <text x="12" y="18" fill="#94a3b8" font-family="sans-serif" font-size="9">BP: 120/80</text>
+      <text x="12" y="32" fill="#94a3b8" font-family="sans-serif" font-size="9">SpO2: 99%</text>
+      <text x="100" y="18" fill="#94a3b8" font-family="sans-serif" font-size="9">Pulse: 72 bpm</text>
+      <text x="100" y="32" fill="#94a3b8" font-family="sans-serif" font-size="9">Blood: B+ve</text>
+      <rect x="200" y="8" width="60" height="24" rx="4" fill="#10b981"/>
+      <text x="230" y="24" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">ACTIVE</text>
+    </g>
+    <!-- Prescription items preview -->
+    <g transform="translate(20, 90)">
+      <rect width="270" height="115" rx="6" fill="#0a1813"/>
+      <text x="12" y="22" fill="#6ee7b7" font-family="sans-serif" font-size="11" font-weight="bold">Rx Medication Plan</text>
+      <line x1="12" y1="32" x2="258" y2="32" stroke="#134e4a"/>
+      <text x="12" y="52" fill="#e2e8f0" font-family="sans-serif" font-size="10">• Amoxicillin 500mg — 1-0-1 (After Food, 5 Days)</text>
+      <text x="12" y="74" fill="#e2e8f0" font-family="sans-serif" font-size="10">• Paracetamol 650mg — SOS (PRN)</text>
+      <rect x="12" y="88" width="90" height="20" rx="4" fill="#2563eb"/>
+      <text x="57" y="102" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">WhatsApp PDF</text>
+      <rect x="110" y="88" width="80" height="20" rx="4" fill="#059669"/>
+      <text x="150" y="102" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">Print Invoice</text>
+    </g>
+  </g>
+</svg>
