@@ -26,7 +26,7 @@ Whether developing multi-tenant SaaS platforms like CuraPulse and AI Business Au
     location: "Delhi, India / Remote Worldwide",
     portfolioUrl: "https://merazul-khan-portfolio.vercel.app/",
     resumeUrl: "#contact",
-    avatar: "assets/images/avatar.svg",
+    avatar: "assets/images/profile.jpg",
     socials: [
       {
         name: "GitHub",
