@@ -29,21 +29,15 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
     socials: [
       {
         name: "GitHub",
-        url: "https://github.com/Merazul1",
+        url: "https://github.com/Merazul1/",
         icon: "github",
         handle: "@Merazul1"
       },
       {
         name: "LinkedIn",
-        url: "https://linkedin.com",
+        url: "https://www.linkedin.com/in/merazul-khan-a6b604aa/",
         icon: "linkedin",
-        handle: "Merazul Khan"
-      },
-      {
-        name: "Twitter / X",
-        url: "https://twitter.com",
-        icon: "twitter",
-        handle: "@merazul_dev"
+        handle: "merazul-khan-a6b604aa"
       },
       {
         name: "Email",
@@ -152,7 +146,7 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
       featured: true,
       tags: ["Next.js", "TypeScript", "Tailwind CSS", "OpenAI API", "Prisma", "PostgreSQL"],
       liveUrl: "https://example.com/omniflow",
-      githubUrl: "https://github.com/merazul-khan/omniflow",
+      githubUrl: "https://github.com/Merazul1/omniflow",
       details: {
         overview: "OmniFlow combines real-time team collaboration with generative AI. Users can co-edit rich text, generate context-aware summaries, auto-translate documents, and coordinate tasks with zero latency.",
         features: [
@@ -174,7 +168,7 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
       featured: true,
       tags: ["React", "Node.js", "Socket.io", "Tailwind CSS", "PostgreSQL", "Recharts"],
       liveUrl: "https://example.com/pulse-analytics",
-      githubUrl: "https://github.com/merazul-khan/pulse-analytics",
+      githubUrl: "https://github.com/Merazul1/pulse-analytics",
       details: {
         overview: "PulseAnalytics provides engineering and product teams with real-time operational visibility. Features streaming time-series graphs, custom alerting thresholds, and granular cohort segmentation.",
         features: [
@@ -196,7 +190,7 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
       featured: true,
       tags: ["React", "Express.js", "MongoDB", "Tailwind CSS", "Redis", "JWT"],
       liveUrl: "https://example.com/devnexus",
-      githubUrl: "https://github.com/merazul-khan/devnexus",
+      githubUrl: "https://github.com/Merazul1/devnexus",
       details: {
         overview: "A developer forum and blogging engine designed for technical accuracy and peer collaboration. Includes markdown authoring with live code execution previews and syntax highlighting.",
         features: [
@@ -218,7 +212,7 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
       featured: false,
       tags: ["Next.js", "AWS S3", "Web Crypto API", "Tailwind CSS", "TypeScript"],
       liveUrl: "https://example.com/cloudvault",
-      githubUrl: "https://github.com/merazul-khan/cloudvault",
+      githubUrl: "https://github.com/Merazul1/cloudvault",
       details: {
         overview: "CloudVault guarantees total privacy by encrypting all files in the browser before they are uploaded to storage buckets. Even the server administrators cannot view encrypted file payloads.",
         features: [
@@ -240,7 +234,7 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
       featured: false,
       tags: ["React", "Stripe API", "Tailwind CSS", "Zustand", "Framer Motion"],
       liveUrl: "https://example.com/shopsphere",
-      githubUrl: "https://github.com/merazul-khan/shopsphere",
+      githubUrl: "https://github.com/Merazul1/shopsphere",
       details: {
         overview: "A next-generation e-commerce web storefront built for mobile-first shoppers. Boasts instant catalog filtering, optimistic cart updates, and seamless Stripe checkout integration.",
         features: [
@@ -262,7 +256,7 @@ When I'm not coding, you can find me exploring emerging tech stacks, contributin
       featured: false,
       tags: ["TypeScript", "React", "Tailwind CSS", "dnd-kit", "LocalStorage"],
       liveUrl: "https://example.com/taskmaster",
-      githubUrl: "https://github.com/merazul-khan/taskmaster",
+      githubUrl: "https://github.com/Merazul1/taskmaster",
       details: {
         overview: "A fluid, intuitive Kanban project organizer. Users can build sprint boards, attach checklists, assign priority tags, and filter items with fluid animations.",
         features: [

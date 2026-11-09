@@ -1,9 +1,15 @@
 # 🚀 Merazul Khan - Professional Portfolio Website
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-merazul--khan--portfolio.vercel.app-blue?style=for-the-badge&logo=vercel)](https://merazul-khan-portfolio.vercel.app/)
-[![Profile Views](https://views.igorkowalczyk.dev/api/badge/Merazul1?style=flat&color=0e75b6&label=Profile+Views)](https://github.com/Merazul1)
+[![Profile Views](https://views.igorkowalczyk.dev/api/badge/Merazul1?style=flat&color=0e75b6&label=Profile+Views)](https://github.com/Merazul1/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/merazul-khan-a6b604aa/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Merazul1/)
+[![Email](https://img.shields.io/badge/Email-merajulhaikhan%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:merajulhaikhan@gmail.com)
 
-> 🌐 **Live Website:** [https://merazul-khan-portfolio.vercel.app/](https://merazul-khan-portfolio.vercel.app/)
+> 🌐 **Live Website:** [https://merazul-khan-portfolio.vercel.app/](https://merazul-khan-portfolio.vercel.app/)  
+> 💼 **LinkedIn:** [https://www.linkedin.com/in/merazul-khan-a6b604aa/](https://www.linkedin.com/in/merazul-khan-a6b604aa/)  
+> 🐙 **GitHub:** [https://github.com/Merazul1/](https://github.com/Merazul1/)  
+> ✉️ **Email:** [merajulhaikhan@gmail.com](mailto:merajulhaikhan@gmail.com)
 
 A modern, responsive, high-performance portfolio website built with HTML5, Tailwind CSS, Lucide Icons, and Vanilla JavaScript.
 
