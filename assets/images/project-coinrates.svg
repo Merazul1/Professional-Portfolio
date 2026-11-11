@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="crbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e14"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+    <linearGradient id="btcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="ethGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#crbg)" rx="12"/>
+  <rect x="40" y="40" width="520" height="300" rx="10" fill="#070a10" stroke="#f59e0b" stroke-width="2"/>
+  <!-- Status Dots -->
+  <circle cx="65" cy="62" r="5" fill="#ef4444"/>
+  <circle cx="82" cy="62" r="5" fill="#f59e0b"/>
+  <circle cx="99" cy="62" r="5" fill="#10b981"/>
+  <rect x="130" y="52" width="180" height="20" rx="4" fill="#1f2937"/>
+  <text x="140" y="66" fill="#fbbf24" font-family="sans-serif" font-size="10" font-weight="bold">coinrates.live</text>
+  <!-- Binance Telemetry Badges -->
+  <g transform="translate(325, 52)">
+    <rect width="105" height="20" rx="10" fill="#78350f"/>
+    <text x="52" y="14" fill="#fef3c7" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">Binance REST API</text>
+  </g>
+  <g transform="translate(438, 52)">
+    <rect width="105" height="20" rx="10" fill="#064e3b"/>
+    <text x="52" y="14" fill="#a7f3d0" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">Fear &amp; Greed: 74</text>
+  </g>
+  <!-- Main Converter Layout -->
+  <g transform="translate(65, 95)">
+    <rect width="470" height="225" rx="8" fill="#0d131f" stroke="#374151" stroke-width="1"/>
+    
+    <!-- Top Price Ticker Bar -->
+    <g transform="translate(15, 15)">
+      <rect width="140" height="36" rx="6" fill="#111827" stroke="#f59e0b" stroke-width="1"/>
+      <circle cx="22" cy="18" r="9" fill="url(#btcGrad)"/>
+      <text x="22" y="22" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">₿</text>
+      <text x="38" y="16" fill="#e5e7eb" font-family="sans-serif" font-size="9" font-weight="bold">BTC/USD</text>
+      <text x="38" y="28" fill="#10b981" font-family="monospace" font-size="9">$67,420.00</text>
+
+      <g transform="translate(150, 0)">
+        <rect width="140" height="36" rx="6" fill="#111827" stroke="#6366f1" stroke-width="1"/>
+        <circle cx="22" cy="18" r="9" fill="url(#ethGrad)"/>
+        <text x="22" y="22" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Ξ</text>
+        <text x="38" y="16" fill="#e5e7eb" font-family="sans-serif" font-size="9" font-weight="bold">ETH/USD</text>
+        <text x="38" y="28" fill="#10b981" font-family="monospace" font-size="9">$3,540.80</text>
+      </g>
+
+      <g transform="translate(300, 0)">
+        <rect width="140" height="36" rx="6" fill="#111827" stroke="#10b981" stroke-width="1"/>
+        <text x="12" y="16" fill="#9ca3af" font-family="sans-serif" font-size="8">ETH Gas Tracker</text>
+        <text x="12" y="28" fill="#34d399" font-family="monospace" font-size="10" font-weight="bold">14 Gwei (Low)</text>
+      </g>
+    </g>
+
+    <!-- Converter inputs row -->
+    <g transform="translate(15, 65)">
+      <!-- Crypto input -->
+      <rect width="195" height="65" rx="6" fill="#111827" stroke="#4b5563"/>
+      <text x="15" y="22" fill="#fbbf24" font-family="sans-serif" font-size="10" font-weight="bold">CRYPTO AMOUNT</text>
+      <text x="15" y="48" fill="#ffffff" font-family="monospace" font-size="20" font-weight="bold">1.5 BTC</text>
+
+      <!-- Swap icon -->
+      <circle cx="220" cy="32" r="16" fill="#f59e0b"/>
+      <path d="M 215 28 L 225 28 M 222 25 L 225 28 L 222 31 M 225 36 L 215 36 L 218 33 L 215 36 L 218 39" stroke="#000000" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+      <!-- Fiat Output -->
+      <g transform="translate(245, 0)">
+        <rect width="195" height="65" rx="6" fill="#111827" stroke="#4b5563"/>
+        <text x="15" y="22" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="bold">FIAT VALUE</text>
+        <text x="15" y="48" fill="#34d399" font-family="monospace" font-size="20" font-weight="bold">$101,130 USD</text>
+      </g>
+    </g>
+
+    <!-- Real-time Chart / Feature strip -->
+    <g transform="translate(15, 145)">
+      <rect width="440" height="65" rx="6" fill="#111827" stroke="#1f2937"/>
+      <text x="15" y="22" fill="#e5e7eb" font-family="sans-serif" font-size="10" font-weight="bold">Live Market Depth &amp; Slippage Simulation</text>
+      <text x="15" y="42" fill="#9ca3af" font-family="sans-serif" font-size="9">Instant bidirectional conversion • Shareable currency-pair URLs • 0% hidden fee</text>
+      <rect x="330" y="16" width="95" height="32" rx="6" fill="#f59e0b"/>
+      <text x="377" y="36" fill="#000000" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Share Pair ↗</text>
+    </g>
+  </g>
+</svg>

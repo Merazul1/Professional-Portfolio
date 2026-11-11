@@ -1,4 +1,4 @@
-# 🚀 Merazul Hai Khan - Senior Full Stack Software Engineer Portfolio
+# 🚀 Merazul Hai Khan - Senior Full Stack Developer Portfolio
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-merazul--khan--portfolio.vercel.app-blue?style=for-the-badge&logo=vercel)](https://merazul-khan-portfolio.vercel.app/)
 [![Profile Views](https://views.igorkowalczyk.dev/api/badge/Merazul1?style=flat&color=0e75b6&label=Profile+Views)](https://github.com/Merazul1/)
@@ -13,7 +13,7 @@
 > 📱 **Phone:** [+91-8604409004](tel:+918604409004)  
 > 📍 **Location:** Delhi, India / Remote Worldwide
 
-A modern, responsive, high-performance portfolio website built with HTML5, Tailwind CSS, Lucide Icons, and Vanilla JavaScript for **Merazul Hai Khan** — Senior Full Stack Developer with 5+ years of experience in Node.js, React, TypeScript, and .NET MVC.
+A modern, responsive, high-performance portfolio website built with HTML5, Tailwind CSS, Lucide Icons, and Vanilla JavaScript for **Merazul Hai Khan** — Senior Full Stack Developer with 9+ years of experience in Node.js, .NET MVC, React.js, and SQL Server.
 
 Designed with an aesthetic glassmorphic theme, dark/light mode toggle, dynamic typewriter header, animated project showcases with category filters, interactive project quick-view modals, timeline experience tracker, and a working contact form.
 

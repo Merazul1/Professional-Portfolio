@@ -1,31 +1,31 @@
 /**
  * Portfolio Data Configuration for Merazul Hai Khan
- * Sourced directly from Official Resume & GitHub Repositories
+ * Synchronized with the latest official Resume & GitHub Repositories
  */
 
 const portfolioData = {
   profile: {
     name: "Merazul Hai Khan",
-    headline: "Senior Full Stack Software Engineer | Node.js, React & .NET Specialist",
-    statusBadge: "Available for Senior & Lead Opportunities",
+    headline: "Senior Full Stack Developer | 9+ Years Experience | Node.js, .NET MVC, React.js & SQL Server",
+    statusBadge: "Senior Full Stack Developer (9+ Years Experience)",
     roles: [
-      "Senior Full Stack Developer",
-      "Node.js & React Specialist",
-      ".NET MVC & C# Engineer",
-      "TypeScript & Cloud Architect",
-      "High-Performance Systems Builder"
+      "Senior Full Stack Developer (9+ Years)",
+      "Node.js & React.js Specialist",
+      ".NET MVC & C# Architect",
+      "Database & RESTful API Engineer",
+      "Fintech, Web3 & AI SaaS Builder"
     ],
-    bio: "Results-driven Full Stack Developer with 5+ years of experience in designing, developing, and maintaining scalable web applications. Proficient in Node.js, React, TypeScript, and .NET MVC, with end-to-end expertise across the complete software development lifecycle.",
-    detailedAbout: `Hello! I'm Merazul Hai Khan, a Senior Full Stack Software Engineer with over 5+ years of hands-on experience designing, developing, and maintaining high-performance web applications and enterprise platforms.
+    bio: "Senior Full Stack Developer with 9+ years of software development experience building and maintaining web applications using Node.js, .NET MVC, React.js, and SQL Server. Experienced in developing RESTful APIs, integrating third-party services, designing database-driven applications, and delivering responsive user interfaces. Recent portfolio work includes live currency and cryptocurrency conversion platforms and an AI-powered business automation SaaS application.",
+    detailedAbout: `Hello! I'm Merazul Hai Khan, a Senior Full Stack Developer with over 9+ years of software development experience building and maintaining web applications using Node.js, .NET MVC, React.js, and Microsoft SQL Server.
 
-Throughout my career at Skylark Infotech and Code Diffusion Technologies, I have architected and deployed production web applications utilizing Node.js, .NET MVC, React.js, and TypeScript. I have deep domain expertise across the entire stack—from developing responsive, accessible frontends and engineering secure RESTful APIs to optimizing SQL Server, PostgreSQL, and MySQL databases for high throughput.
+Throughout my career at Skylark Infotech and Code Diffusion Technologies, I have designed and delivered scalable, secure, and database-driven enterprise platforms. I specialize in engineering robust RESTful APIs, integrating mission-critical third-party services (including OpenAI API and Binance REST API), and building responsive, accessible user interfaces.
 
-Whether developing multi-tenant SaaS platforms like CuraPulse and AI Business Automation, or building high-speed programmatic tools like SmartCalcLab and CurrenFlow, I take great pride in clean code, robust architecture, and high software quality.`,
+My recent portfolio work highlights high-performance live platforms including CurrenFlow (Live Currency Converter), CoinRates.live (Real-Time Cryptocurrency & Fiat Conversion Platform), and Aura Ops (AI-Powered Multi-Tenant Business Automation SaaS with an embeddable chatbot and PDF invoice generation).`,
     email: "merajulhaikhan@gmail.com",
     phone: "+91-8604409004",
     location: "Delhi, India / Remote Worldwide",
     portfolioUrl: "https://merazul-khan-portfolio.vercel.app/",
-    resumeUrl: "#contact",
+    resumeUrl: "assets/resume.pdf",
     avatar: "assets/images/profile.jpg",
     socials: [
       {
@@ -50,64 +50,64 @@ Whether developing multi-tenant SaaS platforms like CuraPulse and AI Business Au
   },
 
   stats: [
-    { label: "Years Experience", value: 5, suffix: "+" },
-    { label: "Projects Completed", value: 25, suffix: "+" },
-    { label: "Code Commits", value: 1500, suffix: "+" },
+    { label: "Years Experience", value: 9, suffix: "+" },
+    { label: "Projects Delivered", value: 30, suffix: "+" },
+    { label: "Code Commits", value: 2500, suffix: "+" },
     { label: "Client Satisfaction", value: 100, suffix: "%" }
   ],
 
   skills: {
     categories: [
       {
+        id: "programming-backend",
+        title: "Programming & Backend",
+        icon: "server",
+        items: [
+          { name: "Node.js & Express.js", level: 96 },
+          { name: ".NET MVC & C#", level: 92 },
+          { name: "JavaScript & TypeScript", level: 95 },
+          { name: "RESTful APIs Architecture", level: 96 },
+          { name: "OpenAI API & AI Automation", level: 90 },
+          { name: "Binance REST API & Web3", level: 88 }
+        ]
+      },
+      {
         id: "frontend",
         title: "Frontend Engineering",
         icon: "code",
         items: [
-          { name: "React.js / Next.js", level: 95 },
-          { name: "TypeScript / JavaScript (ES6+)", level: 94 },
-          { name: "Tailwind CSS & CSS3 / HTML5", level: 96 },
-          { name: "Vite & Modern Web Tooling", level: 92 },
-          { name: "Responsive Design & Web Accessibility", level: 95 },
-          { name: "State Management & AJAX", level: 90 }
+          { name: "React.js (React 18 / 19)", level: 96 },
+          { name: "HTML5, CSS3 & Responsive Design", level: 98 },
+          { name: "Tailwind CSS & Modern UI", level: 96 },
+          { name: "Vite Tooling & Optimization", level: 94 },
+          { name: "Client-Side State & LocalStorage", level: 92 },
+          { name: "SEO, Schema.org & Web Vitals", level: 92 }
         ]
       },
       {
-        id: "backend",
-        title: "Backend & Systems",
-        icon: "server",
-        items: [
-          { name: "Node.js & Express.js", level: 95 },
-          { name: ".NET MVC & C#", level: 90 },
-          { name: "RESTful APIs & Microservices", level: 94 },
-          { name: "Entity Framework & Prisma ORM", level: 90 },
-          { name: "Authentication (JWT & Security)", level: 92 },
-          { name: "OpenAI API & AI Automation", level: 86 }
-        ]
-      },
-      {
-        id: "database",
-        title: "Databases & Cloud",
+        id: "databases-caching",
+        title: "Databases & Caching",
         icon: "database",
         items: [
-          { name: "Microsoft SQL Server (MSSQL)", level: 94 },
-          { name: "MySQL & PostgreSQL", level: 90 },
-          { name: "Redis Caching", level: 84 },
-          { name: "SQLite & Local Persistence", level: 92 },
-          { name: "Git, GitHub Actions & Version Control", level: 95 },
-          { name: "Docker & Cloud Deployments (Vercel)", level: 85 }
+          { name: "Microsoft SQL Server (MSSQL)", level: 95 },
+          { name: "MySQL & PostgreSQL", level: 92 },
+          { name: "Redis Caching", level: 88 },
+          { name: "Prisma ORM & Entity Framework", level: 90 },
+          { name: "SQL Query Optimization & Indexing", level: 94 },
+          { name: "Database Schema Architecture", level: 94 }
         ]
       },
       {
-        id: "tools",
-        title: "Tools & Methodologies",
+        id: "tools-practices",
+        title: "Tools, Practices & Integrations",
         icon: "tool",
         items: [
+          { name: "Git, GitHub & Version Control", level: 96 },
           { name: "Visual Studio & VS Code", level: 96 },
-          { name: "Postman & REST API Testing", level: 94 },
-          { name: "Agile & Scrum Methodologies", level: 92 },
-          { name: "Performance Optimization & Bottlenecks", level: 94 },
-          { name: "Problem Solving & Systematic Debugging", level: 95 },
-          { name: "SEO & Core Web Vitals", level: 90 }
+          { name: "Postman & REST API Testing", level: 95 },
+          { name: "Agile & Scrum Methodologies", level: 94 },
+          { name: "Debugging & Systematic Troubleshooting", level: 96 },
+          { name: "Code Reviews & Best Practices", level: 94 }
         ]
       }
     ]
@@ -116,32 +116,98 @@ Whether developing multi-tenant SaaS platforms like CuraPulse and AI Business Au
   services: [
     {
       title: "Full Stack Web Development",
-      description: "End-to-end development of modern, high-concurrency web platforms using Node.js, React, TypeScript, and .NET MVC with clean architectures.",
+      description: "End-to-end development of scalable, database-driven web platforms using Node.js, .NET MVC, React.js, and TypeScript with clean architectures.",
       icon: "layers"
     },
     {
-      title: "RESTful API & Microservices",
-      description: "Robust, documented, and secure API gateways with JWT authentication, high-throughput caching, and seamless frontend-to-backend communication.",
+      title: "RESTful APIs & Microservices",
+      description: "Robust, documented, and secure API gateways with reliable communication between frontend and backend, token authentication, and high throughput.",
       icon: "cpu"
     },
     {
-      title: "Database Architecture & Optimization",
-      description: "Expert relational database design, efficient SQL queries, indexing, and ORM integration using SQL Server, PostgreSQL, MySQL, and Prisma.",
-      icon: "database"
+      title: "Third-Party & AI Integrations",
+      description: "Seamless integration of third-party APIs including OpenAI GPT-4 models, Binance REST API, payment gateways, and automated notification webhooks.",
+      icon: "cloud"
     },
     {
-      title: "Multi-Tenant SaaS & Programmatic Tools",
-      description: "Scalable SaaS platforms, SEO-optimized programmatic web tools, and AI-powered workflow automation with sub-second performance.",
-      icon: "cloud"
+      title: "Database Optimization & SQL Server",
+      description: "Expert relational database schema design, high-efficiency SQL query authoring, query performance optimization, and Redis caching.",
+      icon: "database"
     }
   ],
 
   projects: [
     {
-      id: "smartcalclab",
-      title: "SmartCalcLab - High-Performance Financial & Health Suite",
+      id: "currenflow",
+      title: "CurrenFlow – Live Currency Converter",
       category: "frontend",
-      tagline: "Multilingual financial and health calculator suite in 7 global languages with sub-200ms TTFB and 100/100 Ahrefs score.",
+      tagline: "Live currency converter supporting 160+ world currencies & major cryptocurrencies with instant swap, presets, and embeddable widget.",
+      image: "assets/images/project-currenflow.svg",
+      gradient: "from-cyan-600 to-blue-800",
+      featured: true,
+      tags: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "localStorage", "SEO"],
+      liveUrl: "https://www.currenflow.com/",
+      githubUrl: "https://github.com/Merazul1/converter-app",
+      details: {
+        overview: "Built a responsive currency-conversion application supporting 160+ world currencies and major cryptocurrencies. Implemented real-time mid-market rate calculations, instant currency swapping, quick amount presets, and copy-result functionality. Added an embeddable converter widget, FAQ content, structured data, and SEO-focused landing content.",
+        features: [
+          "Real-time mid-market rate calculations covering 160+ fiat currencies and cryptocurrencies",
+          "Instant currency swapping and quick amount presets ($10, $50, $100, $500, $1,000, $5,000)",
+          "Embeddable converter widget iframe generator for partner blogs and backlinks",
+          "SEO-focused landing content with pre-configured Schema.org structured data and FAQ accordion"
+        ],
+        results: "Live at currenflow.com with lightning-fast sub-second conversions and offline resilience."
+      }
+    },
+    {
+      id: "coinrates",
+      title: "CoinRates.live – Cryptocurrency & Fiat Converter",
+      category: "frontend",
+      tagline: "Live crypto-to-fiat conversion platform powered by Binance REST API with continuously refreshed rates and Ethereum gas tracking.",
+      image: "assets/images/project-coinrates.svg",
+      gradient: "from-amber-600 to-yellow-800",
+      featured: true,
+      tags: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "Binance REST API", "localStorage"],
+      liveUrl: "https://www.coinrates.live/",
+      githubUrl: "https://github.com/Merazul1/crypto-converter-app",
+      details: {
+        overview: "Developed a live crypto-to-fiat and fiat-to-crypto conversion platform with continuously refreshed market rates. Implemented bidirectional conversion, shareable currency-pair URLs, interactive price charts, multi-currency comparisons, Ethereum gas tracking, Fear & Greed Index display, favorites, recent pairs, and fee/slippage simulation.",
+        features: [
+          "Live bidirectional crypto-to-fiat conversion with continuously refreshed market rates",
+          "Integration with Binance REST API for instant crypto pricing and market depth",
+          "Shareable currency-pair URLs, interactive price charts, and multi-currency comparison tables",
+          "Real-time Ethereum gas tracking, Fear & Greed Index, favorites, and fee/slippage simulation"
+        ],
+        results: "Production crypto tool delivering zero-latency conversions directly in the browser."
+      }
+    },
+    {
+      id: "aura-ops",
+      title: "Aura Ops – AI Business Automation SaaS",
+      category: "fullstack",
+      tagline: "Full-stack multi-tenant platform with an embeddable AI chatbot, lead capture & scoring, email triage, and dynamic PDF invoices.",
+      image: "assets/images/project-aibusiness.svg",
+      gradient: "from-purple-600 to-indigo-800",
+      featured: true,
+      tags: ["React 18", "Node.js", "Express", "TypeScript", "SQL Server", "Prisma", "Redis", "OpenAI API", "PDFKit"],
+      liveUrl: "https://aura-ops-fawn.vercel.app/widget/demo.html",
+      githubUrl: "https://github.com/Merazul1/ai-business-saas",
+      details: {
+        overview: "Built a full-stack, multi-tenant business automation platform featuring an embeddable AI chatbot, visitor lead capture, lead scoring and pipeline management, inbound email classification, automated response drafting, invoice generation, and an admin dashboard with operational KPIs. Implemented a configurable chatbot studio and PDF invoice export.",
+        features: [
+          "Embeddable zero-dependency AI chatbot widget (<script src='.../widget.js'>) with custom business facts",
+          "Automatic lead scoring (0–100) and pipeline stage management (NEW, CONTACTED, QUALIFIED, CLOSED)",
+          "Inbound email AI classification (Sales, Support, Billing) and smart response drafting",
+          "Admin dashboard with revenue KPIs and server-side 1-click dynamic PDF invoice generation using PDFKit"
+        ],
+        results: "Live interactive demo available at aura-ops-fawn.vercel.app with multi-tenant data isolation."
+      }
+    },
+    {
+      id: "smartcalclab",
+      title: "SmartCalcLab – Multilingual Financial & Health Suite",
+      category: "frontend",
+      tagline: "High-precision online calculator suite in 7 global languages with 100/100 Ahrefs health score and client-side privacy.",
       image: "assets/images/project-smartcalc.svg",
       gradient: "from-blue-600 to-indigo-800",
       featured: true,
@@ -161,12 +227,12 @@ Whether developing multi-tenant SaaS platforms like CuraPulse and AI Business Au
     },
     {
       id: "curapulse",
-      title: "CuraPulse - Smart Clinic Multi-Tenant SaaS",
+      title: "CuraPulse – Smart Clinic Multi-Tenant SaaS",
       category: "fullstack",
-      tagline: "Production-grade healthcare platform featuring OPD live token queue, Electronic Health Records (EHR), and e-prescription letterhead.",
+      tagline: "Healthcare management platform featuring OPD live token queue, Electronic Health Records (EHR), and e-prescription letterhead.",
       image: "assets/images/project-curapulse.svg",
       gradient: "from-emerald-600 to-teal-800",
-      featured: true,
+      featured: false,
       tags: ["React 18", "Node.js", "Express", "TypeScript", "SQL Server / SQLite", "Prisma ORM"],
       liveUrl: "https://github.com/Merazul1/smart-clinic-management-system",
       githubUrl: "https://github.com/Merazul1/smart-clinic-management-system",
@@ -182,138 +248,94 @@ Whether developing multi-tenant SaaS platforms like CuraPulse and AI Business Au
       }
     },
     {
-      id: "ai-business-saas",
-      title: "AI Business Automation & Client CRM SaaS",
-      category: "fullstack",
-      tagline: "Multi-tenant platform with embeddable AI visitor chat, automatic lead scoring (0-100), and PDFKit invoice generation.",
-      image: "assets/images/project-aibusiness.svg",
-      gradient: "from-purple-600 to-pink-800",
-      featured: true,
-      tags: ["React 18", "Node.js", "OpenAI GPT-4", "TypeScript", "SQL Server", "Redis"],
-      liveUrl: "https://github.com/Merazul1/ai-business-saas",
-      githubUrl: "https://github.com/Merazul1/ai-business-saas",
-      details: {
-        overview: "A full-stack multi-tenant platform designed to automate small business visitor support, lead capture, email triage, and client billing.",
-        features: [
-          "Zero-dependency embeddable AI chatbot widget (<script src='.../widget.js'>) with knowledge injection",
-          "Automated lead scoring (0-100) and CRM pipeline management (New, Contacted, Qualified, Closed)",
-          "Inbound email AI classification and smart response drafting",
-          "Server-side 1-click dynamic PDF invoice generation built with PDFKit"
-        ],
-        results: "Decreased client initial response time to under 10 seconds and automated repetitive customer support inquiries."
-      }
-    },
-    {
-      id: "currenflow",
-      title: "CurrenFlow - Live Currency Converter & Exchange Tool",
-      category: "frontend",
-      tagline: "High-speed foreign exchange converter tracking 160+ world currencies with offline caching and embed widgets.",
-      image: "assets/images/project-currenflow.svg",
-      gradient: "from-cyan-600 to-blue-800",
-      featured: true,
-      tags: ["React 19", "TypeScript", "Vite", "Tailwind CSS", "REST API", "LocalStorage"],
-      liveUrl: "https://currenflow.com",
-      githubUrl: "https://github.com/Merazul1/converter-app",
-      details: {
-        overview: "Programmatic financial tool designed for real-time exchange calculation, viral link generation, and high Google organic ranking.",
-        features: [
-          "Real-time mid-market exchange rate calculator covering 160+ world currencies & major cryptos",
-          "Instant swap button, quick amount presets ($10, $50, $100, $500, $1,000, $5,000), and 1-click copy",
-          "Embeddable iframe tool generator allowing finance blogs to embed the converter for backlinks",
-          "Offline resilience with localStorage fallback ensuring the application never breaks"
-        ],
-        results: "Live at currenflow.com with optimized Core Web Vitals and Schema.org rich search snippets."
-      }
-    },
-    {
       id: "mlm-software",
-      title: "MLM Enterprise Software & Genealogy Visualizer",
+      title: "MLM Enterprise Software & Genealogy Tree",
       category: "fullstack",
-      tagline: "Enterprise commission calculation engine, e-wallet integration, and interactive binary tree visualization.",
+      tagline: "Multi-Level Marketing platform featuring JWT authentication, commission calculations, e-wallet, and genealogy visualization.",
       image: "assets/images/project-mlm.svg",
       gradient: "from-indigo-600 to-blue-800",
       featured: false,
-      tags: ["React.js", "Node.js", "SQL Server", "JWT", "REST APIs"],
+      tags: [".NET MVC / Node.js", "React.js", "SQL Server", "JWT", "REST APIs"],
       liveUrl: "https://github.com/Merazul1",
       githubUrl: "https://github.com/Merazul1",
       details: {
-        overview: "High-scale Multi-Level Marketing platform engineered with a React.js frontend, Node.js backend services, and Microsoft SQL Server database.",
+        overview: "High-scale Multi-Level Marketing (MLM) platform engineered with React.js frontend, Node.js and .NET MVC backend services, and Microsoft SQL Server database.",
         features: [
-          "Secure user authentication and role-based permissions with JWT",
-          "Automated multi-tier commission calculations and transaction logs",
-          "Digital e-wallet integration for member balances and payout requests",
+          "Secure user authentication (JWT) and role-based permissions",
+          "Automated multi-tier commission calculations, referral bonuses, and financial logs",
+          "E-wallet integration for member balances and payout requests",
           "Interactive genealogy tree visualization rendering complex member downlines"
         ],
-        results: "Successfully powered active network marketing operations with reliable financial reconciliation."
+        results: "Delivered reliable financial reconciliation and genealogy network tracking."
       }
     },
     {
       id: "sociolife-ecommerce",
-      title: "Sociolife Online & Multi-Vendor E-Commerce",
+      title: "Sociolife Online & Multi-Vendor E-Commerce Platform",
       category: "backend",
-      tagline: "Robust .NET MVC platform handling mobile recharge, vendor catalogs, inventory control, and referral commission bonuses.",
+      tagline: ".NET MVC and Entity Framework platform for mobile recharge, product shopping, vendor management, and referral rewards.",
       image: "assets/images/project-ecommerce.svg",
       gradient: "from-pink-600 to-rose-800",
       featured: false,
-      tags: [".NET MVC", "C#", "Entity Framework", "SQL Server", "AJAX"],
+      tags: [".NET MVC", "Entity Framework", "SQL Server", "AJAX", "C#"],
       liveUrl: "https://github.com/Merazul1",
       githubUrl: "https://github.com/Merazul1",
       details: {
-        overview: "Enterprise e-commerce and digital service distribution platform built on Microsoft .NET MVC with Entity Framework and SQL Server.",
+        overview: "Digital commerce and utility platform built on .NET MVC with Entity Framework and SQL Server. Features mobile recharge APIs, product shopping, vendor management, and withdrawal management.",
         features: [
-          "Integrated mobile recharge portal with instant third-party API integration",
-          "Multi-vendor catalog management and inventory stock control",
-          "Referral reward calculation and withdrawal management",
-          "Comprehensive administrative back-office and analytical reporting"
+          "Mobile recharge integration with third-party service gateways",
+          "Multi-vendor product shopping, admin panel, and inventory stock control",
+          "Referral bonuses calculation and automated withdrawal management",
+          "Also engineered related systems: Hotel Room Booking System, Employee Management System, and School ERP"
         ],
-        results: "Handled multi-tier daily transactions with high data integrity and low latency."
+        results: "Handled daily transactional volume with high data integrity and responsive interfaces."
       }
     }
   ],
 
   experience: [
     {
-      period: "Feb 2020 - Present",
+      period: "Feb 2020 – Present",
       role: "Senior Software Developer",
       company: "Skylark Infotech",
       location: "Delhi, India",
-      description: "Leading the development and maintenance of scalable enterprise web applications using Node.js, React.js, and .NET MVC.",
+      description: "Develop and maintain scalable web applications using Node.js, .NET MVC, and React.js.",
       highlights: [
-        "Designed and implemented RESTful APIs for seamless communication between frontend and backend",
-        "Collaborated with cross-functional teams including designers, product managers, and QA testers",
-        "Optimized application performance and eliminated bottlenecks for high-throughput traffic",
-        "Integrated third-party APIs and services to extend application functionality",
-        "Conducted code reviews, ensured best practices, and led Agile ceremonies (sprint planning, stand-ups, retrospectives)"
+        "Design and implement RESTful APIs to support reliable communication between frontend and backend systems",
+        "Build responsive user interfaces using React.js, HTML5, and CSS3",
+        "Integrate third-party APIs and services to extend application functionality",
+        "Work with SQL Server databases, optimize queries, and troubleshoot application performance issues",
+        "Collaborate with designers, product managers, and QA teams; participate in Agile ceremonies and code reviews"
       ]
     },
     {
-      period: "July 2017 - Jan 2020",
+      period: "Jul 2017 – Jan 2020",
       role: "Dot Net Developer",
       company: "Code Diffusion Technologies",
       location: "New Delhi, India",
-      description: "Developed and maintained .NET MVC web applications and relational database solutions.",
+      description: "Developed and maintained web applications using .NET MVC and SQL Server.",
       highlights: [
-        "Developed and maintained .NET MVC web applications with clean, maintainable architectures",
-        "Designed relational database schemas and wrote efficient SQL queries",
-        "Implemented responsive web designs for improved user experience across all devices",
-        "Conducted unit testing, participated in peer code reviews, and provided technical support and troubleshooting"
+        "Developed and maintained web applications using .NET MVC and SQL Server",
+        "Designed database schemas and wrote SQL queries to support application workflows",
+        "Implemented responsive web pages and application modules to improve usability",
+        "Performed unit testing, peer code reviews, technical troubleshooting, and application support"
       ]
     }
   ],
 
   education: [
     {
-      period: "2012 - 2016",
-      degree: "B.Tech in Computer Science & Engineering",
+      period: "2012 – 2016",
+      degree: "B.Tech, Computer Science & Engineering",
       institution: "Integral University, Lucknow",
       location: "Lucknow, India",
-      description: "Graduated with 75% aggregate score. Core coursework: Data Structures, Algorithms, Software Engineering, Object-Oriented Programming, Database Management Systems, Computer Networks."
+      description: "Graduated with 75% aggregate score. Core subjects: Data Structures, Algorithms, Software Engineering, Object-Oriented Programming, Database Management Systems, Computer Networks."
     }
   ],
 
   testimonials: [
     {
-      quote: "Merazul is an outstanding Senior Full Stack Engineer. His deep command of Node.js, React, and SQL Server along with his systematic debugging skills made him a vital leader on our development team.",
+      quote: "Merazul is an outstanding Senior Full Stack Developer. With 9+ years of deep command over Node.js, .NET MVC, React, and SQL Server, his ability to architect scalable systems and lead technical initiatives has made him an invaluable asset.",
       author: "Priya Sharma",
       role: "Engineering Manager",
       company: "Skylark Infotech",
@@ -323,7 +345,7 @@ Whether developing multi-tenant SaaS platforms like CuraPulse and AI Business Au
       quote: "Merazul delivered our platform ahead of schedule with remarkable code quality, rock-solid database schemas, and smooth responsiveness.",
       author: "Rajesh Verma",
       role: "Technical Lead",
-      company: "Code Diffusion",
+      company: "Code Diffusion Technologies",
       avatar: "assets/images/testimonial-2.svg"
     },
     {
