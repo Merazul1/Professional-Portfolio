@@ -532,28 +532,31 @@ function renderTestimonials() {
   container.innerHTML = portfolioData.testimonials
     .map(
       (t) => `
-    <div class="glass-panel p-6 lg:p-8 rounded-2xl hover-lift border border-slate-800/80 flex flex-col justify-between">
+    <div class="glass-panel p-6 rounded-2xl hover-lift border border-slate-800/80 flex flex-col justify-between">
       <div>
-        <div class="flex text-amber-400 mb-4">
+        <div class="flex text-amber-400 mb-3">
           <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
           <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
           <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
           <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
           <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
         </div>
-        <p class="text-slate-300 text-sm italic mb-6 leading-relaxed">"${t.quote}"</p>
+        <p class="text-slate-300 text-xs sm:text-sm italic mb-6 leading-relaxed">"${t.quote}"</p>
       </div>
-      <div class="flex items-center gap-3 pt-4 border-t border-slate-800">
-        <img src="${t.avatar}" alt="${t.author}" class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 object-cover" />
-        <div>
-          <h4 class="text-sm font-bold text-slate-100">${t.author}</h4>
-          <p class="text-xs text-slate-400">${t.role} • ${t.company}</p>
+      <div class="flex items-center gap-3 pt-4 border-t border-slate-800/80">
+        <img src="${t.avatar}" alt="${t.author}" class="w-10 h-10 rounded-full bg-slate-900 border border-slate-700/60 object-cover flex-shrink-0" />
+        <div class="min-w-0">
+          <h4 class="text-sm font-bold text-slate-100 truncate">${t.author}</h4>
+          <p class="text-xs text-blue-400 font-medium truncate">${t.role}</p>
+          <p class="text-[11px] text-slate-400 truncate">${t.company}</p>
         </div>
       </div>
     </div>
   `
     )
     .join("");
+
+  if (window.lucide) lucide.createIcons();
 }
 
 /* ==========================================================================

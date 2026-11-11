@@ -335,25 +335,60 @@ My recent portfolio work highlights high-performance live platforms including Cu
 
   testimonials: [
     {
-      quote: "Merazul is an outstanding Senior Full Stack Developer. With 9+ years of deep command over Node.js, .NET MVC, React, and SQL Server, his ability to architect scalable systems and lead technical initiatives has made him an invaluable asset.",
-      author: "Priya Sharma",
-      role: "Engineering Manager",
+      author: "Pradeep Kumar",
+      role: "DB Analyst",
       company: "Skylark Infotech",
-      avatar: "assets/images/testimonial-1.svg"
+      avatar: "assets/images/colleague-pradeep.svg",
+      quote: "Merazul has an exceptional grasp of database architecture and SQL Server query optimization. Collaborating with him on complex stored procedures, indexing strategies, and data pipelines made our backend operations lightning fast and rock solid."
     },
     {
-      quote: "Merazul delivered our platform ahead of schedule with remarkable code quality, rock-solid database schemas, and smooth responsiveness.",
-      author: "Rajesh Verma",
-      role: "Technical Lead",
+      author: "Brijesh Kumar",
+      role: "MVC Developer",
+      company: "Skylark Infotech",
+      avatar: "assets/images/colleague-brijesh.svg",
+      quote: "Working alongside Merazul on .NET MVC enterprise modules has been a great experience. His code architecture is modular, clean, and maintainable. His debugging skills and fast turnaround under tight sprint deadlines are remarkable."
+    },
+    {
+      author: "Sunil Kumar",
+      role: "DB Analyst",
+      company: "Skylark Infotech",
+      avatar: "assets/images/colleague-sunil.svg",
+      quote: "Merazul bridges the gap between application logic and database performance seamlessly. He understands relational schemas deeply, writes highly efficient SQL queries, and always ensures strict data consistency across services."
+    },
+    {
+      author: "Md Soban",
+      role: "React Developer",
+      company: "Skylark Infotech",
+      avatar: "assets/images/colleague-soban.svg",
+      quote: "Collaborating with Merazul on React frontends and Node.js backends has been fantastic. His RESTful APIs are intuitive and well-structured, making frontend integration effortless while delivering smooth, responsive user experiences."
+    },
+    {
+      author: "Kajal",
+      role: "MVC Developer",
+      company: "Skylark Infotech",
+      avatar: "assets/images/colleague-kajal.svg",
+      quote: "Merazul is an outstanding colleague in .NET MVC development. He handles complex business logic and database-driven modules with ease, champions clean code practices, and is always supportive and insightful during team collaborations."
+    },
+    {
+      author: "Deepanshu",
+      role: "Android App Developer",
       company: "Code Diffusion Technologies",
-      avatar: "assets/images/testimonial-2.svg"
+      avatar: "assets/images/colleague-deepanshu.svg",
+      quote: "Merazul developed high-performance backend APIs for our Android mobile applications. His API endpoints were secure, fast, and structured with clean JSON payloads, which made mobile client integration completely painless."
     },
     {
-      quote: "Exceptional mastery of both modern JavaScript/Node.js frameworks and enterprise .NET MVC systems. A rare developer who bridges frontend polish and backend resilience.",
-      author: "David Chen",
-      role: "Lead Architect",
-      company: "CloudCore",
-      avatar: "assets/images/testimonial-3.svg"
+      author: "Amit Kumar",
+      role: "Android App Developer",
+      company: "Code Diffusion Technologies",
+      avatar: "assets/images/colleague-amit.svg",
+      quote: "Whenever we needed robust REST APIs and rapid bug fixes for our Android apps, Merazul delivered without fail. His attention to API response latency and rock-solid error handling ensured our mobile apps ran flawlessly."
+    },
+    {
+      author: "Pintu Yadav",
+      role: "Tech Lead",
+      company: "Code Diffusion Technologies",
+      avatar: "assets/images/colleague-pintu.svg",
+      quote: "As Tech Lead at Code Diffusion, I counted on Merazul for our most demanding .NET MVC and SQL projects. He is a dependable engineer with sharp technical instincts, strong work ethic, and a consistent focus on code quality."
     }
   ]
 };
